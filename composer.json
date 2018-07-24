@@ -32,5 +32,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "*"
+    },
+    "replace": {
+        "pear-pear.php.net/Event_Dispatcher": "self.version"
     }
 }
